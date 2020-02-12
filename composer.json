@@ -3,6 +3,7 @@
     "description": "Juste pour les tests",
     "type": "library",
     "require": {
+        "php": ">=7.0",
         "ekolo/eko-regex": "^0.2.0"
     },
     "license": "MIT",
@@ -11,5 +12,10 @@
             "name": "Don de Dieu BOLENGE",
             "email": "dondedieubolenge@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ekolo\\Component\\EkoString": "src/"
+        }
+    }
 }
