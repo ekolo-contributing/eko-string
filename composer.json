@@ -1,0 +1,15 @@
+{
+    "name": "ekolo/eko-string",
+    "description": "Juste pour les tests",
+    "type": "library",
+    "require": {
+        "ekolo/eko-regex": "^0.2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Don de Dieu BOLENGE",
+            "email": "dondedieubolenge@gmail.com"
+        }
+    ]
+}
